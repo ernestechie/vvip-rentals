@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Nunito Sans', sans-serif !important;
+  box-sizing: border-box;
+}
+
+.hero-image {
+  background: linear-gradient(rgba(9, 22, 29, 0.7), rgba(9, 22, 29, 0.7)),
+    url('/assets/jpeg/image-6.jpeg') no-repeat center center/cover;
+}
+
+.contact-page-image {
+  background: linear-gradient(rgba(9, 22, 29, 0.7), rgba(9, 22, 29, 0.7)),
+    url('/assets/jpeg/image-5.jpeg') no-repeat center center/cover;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+}
