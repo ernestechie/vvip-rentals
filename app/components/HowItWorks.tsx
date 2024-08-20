@@ -32,7 +32,7 @@ export default function HowItWorks() {
           </li>
           <li className='my-3'>
             6. Car will be delivered with a full tank and should be returned the
-            same. If not then you'll be charged for used petrol.
+            same. If not then you`ll be charged for used petrol.
           </li>
           <li className='my-3'>
             7. No smoking or drinking or eating is permitted in the vehicles.
