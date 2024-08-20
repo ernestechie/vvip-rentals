@@ -12,15 +12,11 @@ export default function BookingProcess() {
         </h5>
       </div>
 
-      <p className='sm:text-center text-xl mx-auto max-w-6xl'>
-        The process of reserving a vehicle is straightforward. Select the
-        desired vehicle, carefully review and agree to our rental terms, and
-        make the payment for the rental amount.
-        <br /> Upon vehicle collection, you will be required to provide the
-        deposit amount indicated on the car`s page. We will thoroughly inspect
-        the vehicle together, and you will sign to acknowledge its condition.
-        <br /> Finally, you are ready to embark on your journey, enjoying the
-        freedom of the open road and professionalism of VVIP Rentals.
+      <p className='sm:text-center text-xl mx-auto max-w-3xl'>
+        The process of reserving a vehicle is straightforward.
+        <br /> Select the desired vehicle, carefully review and agree to our
+        rental terms, and make the payment for the rental amount. Contact us for
+        more details.
       </p>
     </section>
   );
