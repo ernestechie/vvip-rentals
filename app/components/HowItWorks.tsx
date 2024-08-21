@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function HowItWorks() {
   return (
-    <section className='p-4 lg:px-16 xl:px-32 pt-24 pb-24 bg-gray-100 text-gray-700'>
+    <section className='p-4 lg:px-16 xl:px-32 pt-24 pb-24 bg-gray-100 text-gray-800'>
       <h6 className='font-extrabold text-center mb-8 text-4xl sm:text-6xl'>
         How It Works
       </h6>
