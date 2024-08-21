@@ -1,11 +1,10 @@
 'use client';
 
-import logo from '@/public/logo.png';
-import Image from 'next/image';
 import Link from 'next/link';
-import { usePathname, useRouter } from 'next/navigation';
+import { usePathname } from 'next/navigation';
 import React, { useState } from 'react';
 import { IoCloseSharp, IoMenuSharp } from 'react-icons/io5';
+import Logo from './Logo';
 
 interface LinkType {
   _id: string;
@@ -49,7 +48,7 @@ const Navbar = () => {
     <nav className='p-4 bg-primary-5 flex items-center justify-between lg:px-16 xl:px-32 fixed top-0 left-0 w-screen z-50'>
       {/* Navbar Logo */}
       <Link href='/'>
-        <Image src={logo} alt='VVIP Rentals Logo' width={100} height={100} />
+        <Logo />
       </Link>
 
       {/* Navbar Links */}
@@ -81,12 +80,7 @@ const Navbar = () => {
       >
         <div className='flex items-center gap-8 justify-between'>
           <Link href='/'>
-            <Image
-              src={logo}
-              alt='VVIP Rentals Logo'
-              width={100}
-              height={100}
-            />
+            <Logo />
           </Link>
           <button
             className='block text-4xl p-0 text-white'

@@ -1,12 +1,11 @@
-import logo from '@/public/logo.png';
-import Image from 'next/image';
 import React from 'react';
+import Logo from './Logo';
 
 export default function BookingProcess() {
   return (
     <section className='p-4 lg:px-16 xl:px-32 pt-24 pb-24 bg-primary text-gray-50'>
       <div className='flex flex-col gap-4 items-center justify-center'>
-        <Image src={logo} alt='VVIP Rentals Logo' height={200} width={200} />
+        <Logo />
         <h5 className='font-extrabold text-center mb-8 text-4xl sm:text-6xl'>
           The Booking Process
         </h5>

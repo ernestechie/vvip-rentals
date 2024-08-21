@@ -7,7 +7,7 @@ export default function HowItWorks() {
         How It Works
       </h6>
 
-      <div className='mx-auto max-w-4xl sm:text-xl'>
+      <div className='mx-auto max-w-4xl text-lg sm:text-xl font-medium'>
         <ul>
           <li className='my-3'>
             1. Only adults aged 25 and over are allowed to rent our vehicles.

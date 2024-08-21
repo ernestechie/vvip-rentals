@@ -1,8 +1,7 @@
-import logo from '@/public/logo.png';
-import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 import { AiFillInstagram } from 'react-icons/ai';
+import Logo from './Logo';
 
 export const linkIconStyle = 'p-2 bg-white text-primary rounded-full';
 
@@ -15,7 +14,7 @@ const FooterSection = () => {
         {/* Column 1 */}
         <div>
           <Link href='/' className='mb-8 inline-block'>
-            <Image src={logo} alt='VVIP Rentals Logo' />
+            <Logo />
           </Link>
           <div>
             <p className='mb-4 font-semibold text-white'>Follow Us</p>
